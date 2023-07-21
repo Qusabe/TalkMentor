@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080" prefWidth="1920" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.ExHandler">
+    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.8" pickOnBounds="true">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.4" pickOnBounds="true" rotate="180.0">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="560.0" layoutY="140.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@klipartz.com.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="TalkMentor" alignment="CENTER" layoutX="144.0" layoutY="219.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="504.0" prefWidth="1633.0" text="Talk Mentor" textFill="#a7fc00">
+            <font>
+                <Font name="Harlow Solid Italic" size="200.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="540.0" layoutY="20.0" opacity="0.6" prefHeight="80.0" prefWidth="840.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="820.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Отработка согласных звуков «Ц» и «С»" textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="40.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="265.0" opacity="0.8" prefHeight="580.0" prefWidth="1880.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="20.0" layoutY="20.0" prefHeight="540.0" prefWidth="1840.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Для улучшения дикции у детей необходимо регулярно выполнять упражнения, предусматривающие проработку правильного воспроизведения звука «Ц».&#10;&#10;Ребенок повторяет за воспитателем следующие слова и фразы:&#10;&#10;Цапля цапнула цепкую жабу.&#10;Сабля сверкнула светлым лезвием.&#10;Цок-цок синий каблучок.&#10;Целится в цель целеустремленный целитель.&#10;Цветет цветок цветами синими.&#10;Сель сошла в сельском селении.&#10;Свет светится в светлом саду светом сиреневым.&#10;Цирк царит в царстве смеха.&#10;Сырные палочки состоят из сыра.&#10;Целый день смеялся циркач.&#10;Цапля сохла, цапля чахла.&#10;&#10;Средняя продолжительность выполнения данного упражнения составляет от 10 до 15 мин. Каждую фразу ребенок может проговаривать по несколько раз. В случае неправильного воспроизведения отдельных звуков специалист помогает детям развить грамотную речь, улучшить дикцию, артикуляцию." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="1820.0" layoutY="20.0" opacity="0.8" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@home.png" />
+                    </image>
+                </ImageView>
+                <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" opacity="0.6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: black; -fx-background-radius: 40;" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

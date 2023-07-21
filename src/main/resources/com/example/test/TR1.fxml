@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="TR1" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.TR1">
+    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.8" pickOnBounds="true">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.5" pickOnBounds="true">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="1000.0" fitWidth="1000.0" layoutX="460.0" layoutY="40.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@klipartz.com.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="TalkMentor" alignment="CENTER" layoutX="144.0" layoutY="203.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="504.0" prefWidth="1633.0" text="Talk Mentor" textFill="#a7fc00">
+            <font>
+                <Font name="Harlow Solid Italic" size="200.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="320.0" layoutY="20.0" opacity="0.8" prefHeight="60.0" prefWidth="1280.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="1260.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="В таблице ниже представлен пошаговый алгоритм действий по выполнению данного упражнения:" textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="25.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="120.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 1. Укрепление мышц корня языка." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="260.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 2. Быстрое перемещение языка внутри ротовой полости." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="400.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="641.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 3. Вращающие движения языком." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="15.0" layoutY="540.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 4. Тренировка лицевой мускулатуры нижней части лица." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="17.0" layoutY="680.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 5. Вращение языка с открытым ртом." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="18.0" layoutY="820.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 6. Растягивание щек." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="960.0" opacity="0.8" prefHeight="60.0" prefWidth="660.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="640.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Шаг 7. Комплексное укрепление всех лицевых мышц." textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="700.0" layoutY="100.0" opacity="0.8" prefHeight="110.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Необходимо открыть рот, а затем высунуть язык вперед на максимальную длину. После этого язык засовывается внутрь ротовой полости по направлению к тканям твердого неба. Данные действия выполняются в течение 5-7 мин." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="702.0" layoutY="260.0" opacity="0.8" prefHeight="80.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Следует закрыть ротовую полость, а затем кончиком языка поочередно касаться внутренней поверхности правой и левой щеки. Продолжительность тренировки этого вида составляет 6 мин." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="703.0" layoutY="402.0" opacity="0.8" prefHeight="80.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Необходимо закрыть рот, а затем выполнять вращательные движения языком внутри ротовой полости. В правую и левую сторону следует сделать не менее 20 вращений." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="702.0" layoutY="531.0" opacity="0.8" prefHeight="110.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Для проведения данной тренировки необходимо вытянуть губы трубочкой. После этого мышечные ткани нижней части лица растягиваются в максимально широкой улыбке, которая сохраняется в течение 10 с. Затем все движения выполняются заново. Продолжительность данного этапа артикуляционной тренировки составляет 10 мин." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="701.0" layoutY="676.0" opacity="0.8" prefHeight="80.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Необходимо открыть рот и высунуть язык, а затем вращать его кончиком по часовой и против часовой стрелки. В каждую сторону следует выполнять по 25 повторений." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="704.0" layoutY="810.0" opacity="0.8" prefHeight="110.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Для проведения этого этапа артикуляционной тренировки потребуется закрыть рот, а затем наполнить его большим количество воздуха. После этого данный объем воздуха поочередно перемещается от правой к левой щеке. Ориентировочная продолжительность тренировки 5 мин." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="705.0" layoutY="951.0" opacity="0.8" prefHeight="110.0" prefWidth="1200.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="1180.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Этот этап занятия на развитие артикуляции предусматривает выполнение следующих действий: изображение различных гримас, выпучивание глаз, пародирование различных персонажей, надувание щёк, демонстрация разнообразных эмоций." textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="1830.0" layoutY="10.0" opacity="0.8" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@home.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="homeB" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toMain" opacity="0.6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: black; -fx-background-radius: 40;" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

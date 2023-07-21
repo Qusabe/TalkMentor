@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080" prefWidth="1920" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.ExHandler">
+    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.8" pickOnBounds="true">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.4" pickOnBounds="true" rotate="180.0">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="560.0" layoutY="140.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@klipartz.com.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="TalkMentor" alignment="CENTER" layoutX="144.0" layoutY="219.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="504.0" prefWidth="1633.0" text="Talk Mentor" textFill="#a7fc00">
+            <font>
+                <Font name="Harlow Solid Italic" size="200.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="680.0" layoutY="14.0" opacity="0.6" prefHeight="80.0" prefWidth="560.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="11.0" layoutY="10.0" prefHeight="60.0" prefWidth="540.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Повторение сложных слов" textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="40.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="180.0" opacity="0.8" prefHeight="730.0" prefWidth="1880.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="20.0" layoutY="20.0" prefHeight="690.0" prefWidth="1840.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Дикция (упражнения для улучшения дикции подходят людям всех возрастных групп) формируется постепенно, по мере укрепления мускулатуры речевого аппарата.&#10;&#10;Занятие под названием «Повторение сложных слов» предусматривает методичное проговаривание следующей информации:&#10;&#10;1) Монстр.&#10;2) Сверхзвуковой.&#10;3)Протестантство.&#10;4) Ответственность.&#10;5) Философствовать.&#10;6) Трансплантация.&#10;7) Пункт взрыва.&#10;8) Горазд всхрапнуть.&#10;9) Бодрствовать.&#10;10) Всклокочен.&#10;11) Взбудоражить.&#10;12) Мегагерц.&#10;13) Контрпрорыв.&#10;14) Ахабагаламага.&#10;15) Сверхвстревоженный.&#10;16) Постскриптум.&#10;&#10;В данном случае развитие дикции и артикуляции достигается за счет приобретения навыков быстрого воспроизведения сложного сочетания гласных и согласных звуков. Это упражнение рекомендуется выполнять по 15-20 мин. ежедневно.Постановка дыхания — это важный этап в общем процессе развития дикции и улучшения звучания голоса.&#10;Выполнение данного упражнения, направленного на усовершенствование функций речевого аппарата, предусматривает осуществление следующих действий:" textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="1820.0" layoutY="20.0" opacity="0.8" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@home.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="homeB" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toMain" opacity="0.6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: black; -fx-background-radius: 40;" />
+            </children>
+        </AnchorPane>
+      <Button fx:id="playB" layoutX="898.0" layoutY="952.0" mnemonicParsing="false" onAction="#togglePlay" prefHeight="59.0" prefWidth="138.0" text="Play">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="previousButton" layoutX="1232.0" layoutY="1002.0" mnemonicParsing="false" onAction="#previousAudio" prefHeight="59.0" prefWidth="130.0" text="Previous">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="nextButton" layoutX="1385.0" layoutY="1000.0" mnemonicParsing="false" onAction="#nextAudio" prefHeight="59.0" prefWidth="142.0" text="Play">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Slider fx:id="volumeSlider" layoutX="1574.0" layoutY="1011.0" prefHeight="30.0" prefWidth="222.0" />
+      <Slider fx:id="audioProgressBar" layoutX="1082.0" layoutY="964.0" prefHeight="30.0" prefWidth="718.0" />
+      <Label fx:id="audioLabel" layoutX="1361.0" layoutY="918.0" prefHeight="47.0" prefWidth="150.0" text="Audio" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rec_button" layoutX="251.0" layoutY="972.0" mnemonicParsing="false" onAction="#recordAudio" text="Записать аудио" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </RadioButton>
+    </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080" prefWidth="1920" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.TR1">
+    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.8" pickOnBounds="true">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.4" pickOnBounds="true" rotate="180.0">
+            <image>
+                <Image url="@logo1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="560.0" layoutY="140.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@klipartz.com.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="TalkMentor" alignment="CENTER" layoutX="144.0" layoutY="219.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="504.0" prefWidth="1633.0" text="Talk Mentor" textFill="#a7fc00">
+            <font>
+                <Font name="Harlow Solid Italic" size="200.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="625.0" layoutY="20.0" opacity="0.6" prefHeight="80.0" prefWidth="670.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="650.0" style="-fx-background-color: black; -fx-background-radius: 40;" text="Произношение взрывных звуков" textFill="#a7fc00">
+                    <font>
+                        <Font name="System Bold Italic" size="40.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="250.0" opacity="0.8" prefHeight="580.0" prefWidth="1880.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <Label layoutX="20.0" layoutY="20.0" prefHeight="540.0" prefWidth="1840.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Самое базовое, чему стоит научиться — это принимать и преобразовывать стресс в нечто полезное. Этим полезным может быть: опыт, доверительные отношения с аудиторией, возможность проверить материал. Важно помнить, что аудитория почти всегда настроена доброжелательно и готова прощать заминки и неточности — если вы с ней честны и говорите о том, что вам действительно интересно.&#10;&#10;Из этого следует первый совет по преодолению страха публичных выступлений.&#10;(1) Найдите в зале человека, который вам симпатичен&#10;(2) Подготовьтесь к выступлению и вопросам&#10;(3)Репетируйте&#10;(4) Говорите медленно и четко&#10;(5) Позаботьтесь о страховке" textFill="#a7fc00" wrapText="true">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="1820.0" layoutY="20.0" opacity="0.8" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+            <children>
+                <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@home.png" />
+                    </image>
+                </ImageView>
+                <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toMain" opacity="0.6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: black; -fx-background-radius: 40;" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

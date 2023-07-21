@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="TR6" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.TongueTwisters">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.4" pickOnBounds="true" rotate="180.0">
+         <image>
+            <Image url="@logo1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.8" pickOnBounds="true">
+         <image>
+            <Image url="@logo1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1000.0" fitWidth="1000.0" layoutX="461.0" layoutY="40.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@klipartz.com.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="TalkMentor" alignment="CENTER" layoutX="133.0" layoutY="240.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="504.0" prefWidth="1633.0" text="Talk Mentor" textFill="#a7fc00">
+         <font>
+            <Font name="Harlow Solid Italic" size="200.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="ANC21" layoutX="1640.0" layoutY="960.0" opacity="0.8" prefHeight="100.0" prefWidth="260.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+         <effect>
+            <DropShadow height="40.0" radius="19.5" spread="0.7" width="40.0" />
+         </effect>
+         <children>
+            <Button fx:id="B21" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toggleGame" prefHeight="80.0" prefWidth="240.0" style="-fx-background-radius: 40; -fx-background-color: black;" text="START" textAlignment="CENTER" textFill="#a7fc00" wrapText="true">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="20.0" layoutY="20.0" opacity="0.8" prefHeight="920.0" prefWidth="1600.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+         <children>
+            <Label fx:id="TTfield" alignment="CENTER" layoutX="10.0" layoutY="10.0" opacity="0.6" prefHeight="900.0" prefWidth="1580.0" style="-fx-background-color: black; -fx-background-radius: 40;" textFill="WHITE">
+               <font>
+                  <Font size="40.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="20.0" layoutY="960.0" opacity="0.8" prefHeight="100.0" prefWidth="1600.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+         <children>
+            <TextField fx:id="plChoice" layoutX="10.0" layoutY="10.0" opacity="0.6" prefHeight="80.0" prefWidth="1580.0" promptText="Введите буквы которые хотите проработать через запятую" style="-fx-background-color: black; -fx-background-radius: 40;">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1726.0" layoutY="20.0" opacity="0.8" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@profile.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toProfile" opacity="0.6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: black; -fx-background-radius: 40;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1640.0" layoutY="120.0" opacity="0.8" prefHeight="821.0" prefWidth="260.0" style="-fx-background-color: #c0e9da; -fx-background-radius: 40;">
+         <children>
+            <Label layoutX="10.0" layoutY="10.0" opacity="0.6" prefHeight="800.0" prefWidth="240.0" style="-fx-background-color: black; -fx-background-radius: 40;" />
+            <Label layoutX="27.0" layoutY="29.0" prefHeight="674.0" prefWidth="226.0" text="Скороговорки&#10; будут появляться&#10; в окне с&#10;лева. Когда &#10;решите &#10;перейти &#10;к следующей, &#10;снова нажмите &#10;на кнопку" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
