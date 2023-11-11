@@ -19,8 +19,8 @@ public class Mail {
      * @throws MessagingException
      */
     public void sendingLetter(String mail, String code) throws IOException, MessagingException {
-        final String username = "suslovva24@gmail.com";
-        final String password = "btfcvtlqdjmwmevv";
+        final String username = "ENTER YOUR EMAIL";
+        final String password = "ENTER YOUR APP PASSWORD";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -38,7 +38,7 @@ public class Mail {
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("suslovva24@gmail.com"));
+            message.setFrom(new InternetAddress("ENTER YOUR EMAIL"));
             message.setRecipients(
                     Message.RecipientType.TO,
                     InternetAddress.parse(mail)
