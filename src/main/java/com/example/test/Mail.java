@@ -19,8 +19,8 @@ public class Mail {
      * @throws MessagingException
      */
     public void sendingLetter(String mail, String code) throws IOException, MessagingException {
-        final String username = "ENTER YOUR EMAIL";
-        final String password = "ENTER YOUR APP PASSWORD";
+        final String username = "ENTER YOUR EMAIL";  // введи свою почту
+        final String password = "ENTER YOUR APP PASSWORD";  // введи пароль приложения почты (гугл в помощь)
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
