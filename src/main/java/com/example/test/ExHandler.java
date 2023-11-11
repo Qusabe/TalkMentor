@@ -88,7 +88,7 @@ public class ExHandler implements Initializable {
 
 
         audio = new ArrayList<>();
-        directory = new File("C:\\Users\\79675\\IdeaProjects\\TalkMentor\\TEST\\.idea\\AudioRecordings");
+        directory = new File("C:\\Users\\79675\\IdeaProjects\\TalkMentor\\TEST\\.idea\\AudioRecordings");  // здесь стоит заменить абсолютный путь на универсальный относительный
         refreshAudioList();
 
         media = new Media(audio.get(audioNumber).toURI().toString());
@@ -162,7 +162,7 @@ public class ExHandler implements Initializable {
         stage.show();
     }
     private void refreshAudioList() {
-        directory = new File("C:\\Users\\79675\\IdeaProjects\\TalkMentor\\TEST\\.idea\\AudioRecordings");
+        directory = new File("C:\\Users\\79675\\IdeaProjects\\TalkMentor\\TEST\\.idea\\AudioRecordings");  //тоже заменить на относительный путь
         File[] files = directory.listFiles();
         if (files != null) {
             audio.clear();
